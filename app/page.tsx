@@ -806,13 +806,13 @@ export default function Home() {
                                             <span className="mx-2">•</span>
                                             <span>{project.solo ? "Solo" : "Team"}</span>
                                         </div>
-                                        <div className="flex gap-3">
+                                        <div className="flex gap-3 relative z-20">
                                             {project.github && (
                                                 <a
                                                     href={project.github}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-gray-500 hover:text-white transition-colors"
+                                                    className="text-gray-500 hover:text-white transition-colors p-1"
                                                     title="GitHub"
                                                 >
                                                     <GitHubIcon />
@@ -823,7 +823,7 @@ export default function Home() {
                                                     href={project.web}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-gray-500 hover:text-white transition-colors"
+                                                    className="text-gray-500 hover:text-white transition-colors p-1"
                                                     title="Live Demo"
                                                 >
                                                     <ExternalLinkIcon />

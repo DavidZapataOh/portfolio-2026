@@ -285,6 +285,7 @@ section {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, transparent 100%);
   opacity: 0;
   transition: opacity 0.4s var(--transition-smooth);
+  pointer-events: none;
 }
 
 .project-card:hover {
