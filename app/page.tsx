@@ -274,7 +274,7 @@ function InteractiveProfile() {
 
         const img = new Image();
         img.crossOrigin = 'anonymous';
-        img.src = '/profile.jpeg';
+        img.src = '/profile.png';
 
         img.onload = () => {
             setImageLoaded(true);
@@ -423,7 +423,7 @@ function InteractiveProfile() {
                 }}
             >
                 <img
-                    src="/profile.jpeg"
+                    src="/profile.png"
                     alt="David Zapata"
                     className="w-full h-full object-cover"
                 />
